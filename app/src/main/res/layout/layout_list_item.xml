@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/dp_15"
+    android:background="@drawable/recyclerviewitmeborder" >
+
+    <TextView
+        android:id="@+id/title"
+        android:gravity="fill"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:textSize="@dimen/dp_15"
+        android:ellipsize="end"
+        android:maxEms="15"
+        android:textColor="@color/black"
+        android:singleLine="true"
+        android:text="title"
+        />
+    <TextView
+        android:id="@+id/time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/dp_10"
+        android:text="2018-1-1"
+        />
+    <TextView
+        android:id="@+id/uuId"
+        android:visibility="invisible"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+         android:text="11111aaaaaaaaaaaaaaaaaaa"
+        />
+</LinearLayout>
+</android.support.constraint.ConstraintLayout>

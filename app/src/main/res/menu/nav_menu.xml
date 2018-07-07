@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single"
+        >
+        <item
+            android:id="@+id/nav_list"
+            android:icon="@drawable/nav_update"
+            android:title="列表" />
+        <item
+            android:id="@+id/nav_new"
+            android:icon="@drawable/nav_gallery"
+            android:title="新建" />
+        <item
+            android:id="@+id/nav_backup"
+            android:icon="@drawable/nav_location"
+            android:title="备份" />
+        <item
+            android:id="@+id/nav_reGet"
+            android:icon="@drawable/nav_task"
+            android:title="恢复" />
+        <item android:title="@string/donate"
+            android:id="@+id/nav_donate"
+            android:icon="@drawable/nav_donate"/>
+    </group>
+    <item android:title="关于">
+        <menu>
+            <item android:icon="@drawable/nav_qq"
+                android:id="@+id/contactMe"
+                android:title="QQ"/>
+            <item android:id="@+id/about"
+                android:icon="@drawable/nav_about"
+                android:title="@string/about"/>
+        </menu>
+    </item>
+
+    <item android:title="@string/setting"
+        android:id="@+id/setting"
+        android:icon="@drawable/ic_settings"
+
+        />
+</menu>

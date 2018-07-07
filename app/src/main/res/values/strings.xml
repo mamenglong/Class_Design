@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">便携记事</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">用户名</string>
+    <string name="prompt_password">密码</string>
+    <string name="action_sign_in">登陆</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This userName is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect or User is not exist！</string>
+    <string name="error_field_required">此处不能为空</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="action_register">注册</string>
+    <string name="title_activity_register">Register</string>
+    <string name="baseURL">http://118.89.112.146:8011/api/</string>
+    <string name="error_invalid_password_null">密码不能为空</string>
+    <string name="error_invalid_userName_null">用户名不能为空</string>
+
+    <string name="add">添加</string>
+    <string name="back">返回</string>
+    <string name="setting">设置</string>
+    <string name="delete">删除</string>
+    <string name="nav_header_email">1519269558@qq.com</string>
+    <string name="alipay">https://mobilecodec.alipay.com/client_download.htm?qrcode=a6x076306bxhk8outhwdr67</string>
+    <string name="nav_header_username">用户名</string>
+    <string name="about">关于</string>
+    <string name="donate">捐赠</string>
+    <string name="qq_number">1519269558</string>
+    <string name="version">版本1.0</string>
+    <string name="check_update">检查更新</string>
+    <string name="title_activity_basic">BasicActivity</string>
+    <string name="changeUser">切换用户</string>
+
+
+</resources>

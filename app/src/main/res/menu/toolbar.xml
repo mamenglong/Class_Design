@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:android="http://schemas.android.com/apk/res/android">
+
+<item android:title="@string/add"
+    android:id="@+id/add"
+    android:icon="@mipmap/ic_action_add"
+    app:showAsAction="always"/>
+    <item android:title="@string/delete"
+        android:id="@+id/delete"
+        android:icon="@mipmap/ic_action_delete"
+        android:visible="false"
+        app:showAsAction="always"/>
+<item android:title="@string/changeUser"
+    android:id="@+id/changeUser"
+    android:icon="@drawable/ic_settings"
+    app:showAsAction="never"/>
+</menu>

@@ -1,0 +1,68 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <!-- 底部的按钮 -->
+
+    <LinearLayout
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:background="#f87"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <View
+            android:id="@+id/button1"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/ic_gallery"
+            android:gravity="center_horizontal" />
+
+        <View
+            android:id="@+id/button2"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="14dp"
+            android:background="@drawable/ic_camera"
+            android:gravity="center_horizontal" />
+
+        <View
+            android:id="@+id/button3"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="14dp"
+            android:background="@drawable/ic_share"
+            android:gravity="center_horizontal" />
+        <TextView
+            android:layout_gravity="end"
+            android:id="@+id/time"
+            android:gravity="center"
+            android:text="2018-7-04 "
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            />
+        <TextView
+            android:id="@+id/uuId"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:visibility="invisible"
+            />
+    </LinearLayout>
+
+    <!-- 富文本编辑器 -->
+
+    <mml.com.class_design.activity.createNew.RichTextEditor
+        android:id="@+id/richEditor"
+        android:layout_below="@id/include_action_bar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/title"
+        android:background="#fff" />
+
+    <include android:id="@+id/include_action_bar" layout="@layout/toolbar_base"></include>
+
+</RelativeLayout>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--高级framwork-->
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:fitsSystemWindows="false"
+    >
+    <!--DrawerLayout两个子控件，第一个是主屏幕显示，第二个是滑出-->
+    <include  layout="@layout/toolbar_base"/>
+    <android.support.v4.widget.DrawerLayout
+        android:id="@+id/drawerLayout"
+        android:layout_width="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        android:layout_height="match_parent">
+        <!--主屏幕-->
+        <android.support.v4.widget.SwipeRefreshLayout
+            android:id="@+id/refresh_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+           >
+
+        <com.yanzhenjie.recyclerview.swipe.SwipeMenuRecyclerView
+            android:id="@+id/recycler_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+        </android.support.v4.widget.SwipeRefreshLayout>
+        <!--侧滑栏-->
+        <android.support.design.widget.NavigationView
+            android:id="@+id/nav_view"
+            android:layout_width="@dimen/dp_250"
+            android:layout_height="match_parent"
+            app:menu="@menu/nav_menu"
+            android:layout_gravity="start">
+            <!-- app:headerLayout="@layout/nav_header"先取消设置，代码添加，可添加点击事件-->
+        </android.support.design.widget.NavigationView>
+    </android.support.v4.widget.DrawerLayout>
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="@dimen/fab_margin"
+        app:layout_anchorGravity="bottom|right|end"
+        app:srcCompat="@mipmap/ic_action_add" />
+</android.support.design.widget.CoordinatorLayout>

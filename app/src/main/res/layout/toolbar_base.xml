@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.design.widget.AppBarLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/appBar"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:theme="@style/AppTheme.AppBarOverlay">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        app:layout_scrollFlags="enterAlways|snap|scroll"
+        app:popupTheme="@style/AppTheme.PopupOverlay"/>
+
+
+    <!--<android.support.design.widget.CollapsingToolbarLayout-->
+    <!--android:id="@+id/collapsing_toolbar"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"-->
+    <!--android:fitsSystemWindows="true"-->
+    <!--app:contentScrim="?attr/colorPrimary"-->
+    <!--app:expandedTitleMarginEnd="64dp"-->
+    <!--app:expandedTitleMarginStart="48dp"-->
+    <!--app:layout_scrollFlags="scroll|exitUntilCollapsed">-->
+
+
+    <!--&lt;!&ndash;<include layout="@layout/nav_header"&ndash;&gt;-->
+    <!--&lt;!&ndash;app:layout_behavior="@string/appbar_scrolling_view_behavior"&ndash;&gt;-->
+    <!--&lt;!&ndash;app:layout_scrollFlags="scroll|enterAlways|enterAlwaysCollapsed"&ndash;&gt;-->
+    <!--&lt;!&ndash;android:layout_width="wrap_content"&ndash;&gt;-->
+    <!--&lt;!&ndash;android:layout_height="wrap_content"&ndash;&gt;-->
+    <!--&lt;!&ndash;android:scaleType="centerCrop"&ndash;&gt;-->
+    <!--&lt;!&ndash;app:layout_collapseMode="parallax"&ndash;&gt;-->
+    <!--&lt;!&ndash;android:minHeight="100dp"&ndash;&gt;-->
+    <!--&lt;!&ndash;&gt;</include>&ndash;&gt;-->
+    <!--<android.support.v7.widget.Toolbar-->
+    <!--android:id="@+id/toolbar"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="?attr/actionBarSize"-->
+    <!--android:background="?attr/colorPrimary"-->
+    <!--app:layout_scrollFlags="enterAlways|snap|scroll"-->
+    <!--app:popupTheme="@style/AppTheme.PopupOverlay"/>-->
+    <!--</android.support.design.widget.CollapsingToolbarLayout>-->
+  </android.support.design.widget.AppBarLayout>
